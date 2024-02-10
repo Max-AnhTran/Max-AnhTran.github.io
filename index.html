@@ -4,44 +4,47 @@
   <head> 
     <title>Hero Zero</title> 
     <style>
-      .item1 { grid-area: header; }
+      header { grid-area: header; }
       .item2 { grid-area: menu; }
       .item3 { grid-area: main; }
       .item4 { grid-area: right; }
-      .item5 { grid-area: footer; }
-      
+      footer { grid-area: footer; }
+
       .grid-container {
         display: grid;
         grid-template-areas:
-          'header header header header header header'
-          'menu main main main right right'
-          'menu main main main right right'
-          'menu main main main right right'
-          'menu main main main right right'
-          'menu main main main right right'
-          'menu footer footer footer footer footer';
+          'header header header header header header header'
+          'main main main main right right menu'
+          'footer footer footer footer footer footer menu';
         gap: 10px;
-        background-color: #fd8282;
+        background-color: #ff4242;
         padding: 10px;
+        font-family: fantasy
       }
-      
+
       .grid-container > div {
-        background-color: rgba(255, 81, 81, 0.8);
+        background-color: rgba(250, 158, 158, 0.8);
         text-align: center;
-        padding: 20px 0;
+        padding: 20px 0 20px 0;
         font-size: 30px;
       }
-      </style>
+      header {
+        background-color: rgba(249, 168, 255, 0.8);
+        text-align: center;
+        padding: 20px 0 20px 0;
+        font-size: 35px;
+      }
+    </style>
   </head> 
 
   <body> 
- 
+
     <div class="grid-container">
-      <div class="item1">MAX WEBSITE</div>
+      <header>MAX WEBSITE</header>
       <div class="item2">Menu</div>
       <div class="item3">Main</div>  
       <div class="item4">Right</div>
-      <div class="item5">Footer</div>
+      <footer>alo i am &euro; hero</footer>
     </div>
   </body>
 
