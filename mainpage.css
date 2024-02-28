@@ -8,4 +8,7 @@ header {
 
 #lang { display: flex;
     justify-content: flex-end;
-}
+      }
+
+#langl { display: inline;
+       }
