@@ -3,7 +3,6 @@ body {
 }
 
 header {
-    background-image: url("https://ibb.co/3TgWxf6");
     font-size: 50px
 }
 
@@ -11,4 +10,10 @@ li { display: inline;
 }
 
 ul { list-style-type: none;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  background-color: lightblue;
 }
