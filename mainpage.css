@@ -1,8 +1,14 @@
 body {
     font-family: cursive
 }
+
 header {
     background-image: url("https://ibb.co/3TgWxf6");
     font-size: 50px
 }
-li { display: inline; }
+
+li { display: inline; 
+}
+
+ul { list-style-type: none;
+}
