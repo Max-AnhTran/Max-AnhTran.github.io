@@ -9,6 +9,8 @@ header {
 .a { display: inline; 
 }
 
+ul { list-style-type: none; }
+
 .ngang { list-style-type: none;
   margin: 0;
   padding: 0;
