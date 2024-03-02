@@ -1,1 +1,112 @@
+body {
+  font-family: Garamond, serif;
+  margin: 0;
+  font-size: 50px;
+}
 
+footer {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 15px;
+}
+
+ul { list-style-type: none;
+ }
+
+#title {margin-top: -100px;
+  background-color: aqua;
+  padding: 5px;
+  font-size: 60px;
+}
+
+#lang { display: flex;
+  justify-content: flex-end;
+  background-color: aqua;
+    }
+
+#langl > li { display: inline;
+   margin-right: 50px;
+   border-style: solid;
+   border-radius: 25%;
+   padding: 5px;
+   background-color: #333;
+   border-color: #333;
+}
+
+#langl > li a {color: white;
+  text-decoration: none;
+}
+
+ul.ngang {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.ngang > li { float: left;
+}
+
+#about {float: right;}
+
+ul.ngang > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+ul.ngang > li a:hover {
+  background-color: #111;
+}
+
+.space1 {background-color: rgb(119, 61, 19);
+  padding: 7px;}
+
+.space2 {background-color: rgb(119, 61, 19);
+  padding: 7px;
+  margin-top: -14px;
+}
+
+
+.countrylist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(0, 199, 199);
+}
+  
+.countrylist > a {
+    background-color: #f1f1f1;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 5%;
+    text-decoration: none;
+    border-style:double;
+    border-width: 10px;
+    border-color: #333;
+    overflow: hidden;
+}
+
+.countrylist > a > div > h1 {
+  font-size: 150%;
+  color: #333;
+}
+
+.countrylist > a > div > h2 {
+  font-size: 110%;
+  color: #333;
+  margin-top: -1cm;
+}
+
+img {
+  width: 100%;
+  margin-bottom: -0.8cm;
+}
