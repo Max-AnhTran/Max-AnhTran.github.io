@@ -1,1 +1,140 @@
+body {
+  font-family: Garamond, serif;
+  margin: 0;
+  font-size: 50px;
+}
 
+footer {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 15px;
+}
+
+ul { list-style-type: none;
+ }
+
+#title {margin-top: -100px;
+  background-color: pink;
+  padding: 5px;
+  font-size: 60px;
+}
+
+#lang { display: flex;
+  justify-content: flex-end;
+  background-color: pink;
+    }
+
+#langl > li { display: inline;
+   margin-right: 50px;
+   border-style: solid;
+   border-radius: 25%;
+   padding: 5px;
+   background-color: #333;
+   border-color: #333;
+}
+
+#langl > li a {color: white;
+  text-decoration: none;
+}
+
+ul.ngang {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.ngang > li { float: left;
+}
+
+#about {float: right;}
+
+ul.ngang > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+ul.ngang > li a:hover {
+  background-color: #111;
+}
+
+.space1 {background-color: rgb(119, 61, 19);
+  padding: 7px;}
+
+.space2 {background-color: rgb(119, 61, 19);
+  padding: 7px;
+  margin-top: -14px;
+}
+
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffe4f0;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+}
+
+
+.aboutus > div {
+    background-color: #ffe4f0;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.a1 {font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #552c3f;
+  width: 5%;
+}
+
+.a1 > p {%;
+ 
+}
+
+img {
+  width: 100%;
+  margin-bottom: -0.8cm;
+}
+.aboutus > .a3 > p {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: -0.5cm;
+  color: #462335;
+}
+
+.aboutus > .a3 > h1 {
+  font-size: 175%;
+  margin-top: -0.5cm;
+  color: #864564;
+}
+
+.aboutus > .a3 > h2 {font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 200%;
+  margin-top: -1cm;
+  color: #c895ad;
+}
+
+
+ 
+
+  transform: rotate(-90deg);
+  text-wrap: nowrap;
+  font-size: 100px;
+}
+
+.a2 {
+  width: 40%;
+  box-shadow: 0px 0px 10px 5px #703a53;
+}
+
+.a3 { width: 45
