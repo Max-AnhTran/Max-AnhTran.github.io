@@ -96,8 +96,17 @@ ul.ngang > li a:hover {
   width: 5%;
 }
 
-.a1 > p {%;
- 
+.a1 > p {  transform: rotate(-90deg);
+  text-wrap: nowrap;
+  font-size: 100px;
+}
+
+.a2 {
+  width: 40%;
+  box-shadow: 0px 0px 10px 5px #703a53;
+}
+
+.a3 { width: 45%;
 }
 
 img {
@@ -124,17 +133,3 @@ img {
   color: #c895ad;
 }
 
-
- 
-
-  transform: rotate(-90deg);
-  text-wrap: nowrap;
-  font-size: 100px;
-}
-
-.a2 {
-  width: 40%;
-  box-shadow: 0px 0px 10px 5px #703a53;
-}
-
-.a3 { width: 45
