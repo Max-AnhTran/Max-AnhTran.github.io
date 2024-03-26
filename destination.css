@@ -93,6 +93,11 @@ ul.ngang > li a:hover {
     border-width: 10px;
     border-color: #333;
     overflow: hidden;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.countrylist > a:hover {
+  width: 22%;
 }
 
 .countrylist > a > div > h1 {
@@ -110,3 +115,5 @@ img {
   width: 100%;
   margin-bottom: -0.8cm;
 }
+
+
