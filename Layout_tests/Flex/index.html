@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Grid</title>
+<style type="text/css">
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.container > div {
+	background-color: aqua;
+	border-style: dotted;
+}
+
+.one {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  font-weight: bold;
+  font-size: 150%;
+}
+.two {
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+}
+.three {
+  grid-column: 4/5;
+  grid-row: 1 / 2;
+}
+.four {
+  grid-column: 4/5;
+  grid-row:2/3;
+}
+.five {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.six {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="one">Aliquam facilisis est nisl, eu placerat enim pulvinar ac. Phasellus.</div>
+		<div class="two">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci eros, ultrices eget elementum nec, sodales quis tortor. Proin nulla ante, mattis quis scelerisque tristique, tincidunt ac mauris. Aenean quis aliquet metus. Morbi eleifend dignissim lacus a scelerisque. Morbi non dolor at quam viverra maximus in ut magna. Phasellus vitae urna in neque lobortis malesuada. Nullam consectetur arcu nisl, quis gravida mauris laoreet a. In eleifend a diam luctus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex mi, aliquam sed nulla non, egestas rutrum ligula. Sed faucibus consectetur posuere. In nisi quam, placerat sed augue non, tristique venenatis quam. Quisque egestas varius nibh id facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent facilisis mi in ligula sollicitudin, nec gravida diam ultricies. Aenean at lacus eu tellus rutrum imperdiet at quis eros.</p>
+
+			<p>Cras egestas non nibh id ultrices. Etiam auctor pharetra odio vitae vulputate. In sed commodo sem. Sed sit amet auctor ligula. Pellentesque elementum neque risus, vel dapibus arcu suscipit eu. Vestibulum sit amet sem justo. Suspendisse semper mauris tellus, laoreet euismod felis egestas eget. Vestibulum rhoncus erat eu volutpat ullamcorper. Mauris vel massa consequat, ullamcorper nisi ac, ultrices erat. Proin interdum, augue in egestas blandit, mauris magna imperdiet erat, quis tincidunt ligula elit nec nisi. Suspendisse ut neque nisi. Proin enim purus, suscipit consequat eros at, dictum eleifend nibh. Nulla aliquet erat augue, sit amet bibendum magna vehicula in.</p>
+		</div>
+		<div class="three">Lorem ipsum dolor sit amet.</div>
+		<div class="four">Sed vel lacus in nunc pharetra</div>
+		<div class="five">Suspendisse potenti</div>
+		<div class="six">Maecenas at ex vel elit</div>
+	  </div>
+</body>
+</html>
