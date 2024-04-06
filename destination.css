@@ -121,4 +121,125 @@ img {
   margin-bottom: -0.8cm;
 }
 
+/* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+  
+@media only screen and (max-width: 430px) {
 
+  body {
+    font-family: Garamond, serif;
+    margin: 0;
+    font-size: 27px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #333;
+  }
+  footer > h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  ul { list-style-type: none;
+   }
+  
+  #title {margin-top: -50px;
+    background-color: aqua;
+    padding: 5px;
+    margin-left: -1cm;
+    margin-bottom: -30px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #lang { display: flex;
+    justify-content: center;
+    background-color: aqua;
+      }
+  
+  #langl > li { display: inline;
+     margin-right: 50px;
+     border-style: solid;
+     border-radius: 25%;
+     padding: 5px;
+     background-color: #333;
+     border-color: #333;
+  }
+  
+  #langl > li a {color: white;
+    text-decoration: none;
+  }
+  
+  ul.ngang {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.ngang > li { float:none;
+  }
+  
+  #about {float: none;}
+  
+  ul.ngang > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+  }
+  
+  ul.ngang > li a:hover {
+    background-color: #111;
+  }
+  
+  .countrylist {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      background-color: rgb(0, 199, 199);
+  }
+    
+  .countrylist > a {
+      background-color: #f1f1f1;
+      width: 40%;
+      margin: 10px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 17px;
+      border-radius: 10%;
+      text-decoration: none;
+      border-style:double;
+      border-width: 10px;
+      border-color: #333;
+      overflow: hidden;
+      transition: width 1s, height 1s, transform 1s;
+  }
+  
+  .countrylist > a:hover {
+    width: 22%;
+  }
+  
+  .countrylist > a > div > h1 {
+    font-size: 150%;
+    color: #333;
+  }
+  
+  .countrylist > a > div > h2 {
+    font-size: 110%;
+    color: #333;
+    margin-top: -1cm;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: -0.5cm;
+  }
+
+}
