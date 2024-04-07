@@ -69,14 +69,6 @@ ul.ngang > li a:hover {
   background-color: #111;
 }
 
-.space1 {background-color: rgb(119, 61, 19);
-  padding: 7px;}
-
-.space2 {background-color: rgb(119, 61, 19);
-  padding: 7px;
-  margin-top: -14px;
-}
-
 
 .aboutus {
     display: flex;
@@ -138,3 +130,145 @@ img {
   color: #c895ad;
 }
 
+/* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+  
+@media only screen and (max-width: 430px) {
+
+  body {
+    font-family: Garamond, serif;
+    margin: 0;
+    font-size: 27px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #333;
+  }
+  footer > h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  ul { list-style-type: none;
+   }
+  
+  #title {margin-top: -50px;
+    background-color: pink;
+    padding: 5px;
+    margin-left: -1cm;
+    margin-bottom: -30px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #lang { display: flex;
+    justify-content: center;
+    background-color: pink;
+      }
+  
+  #langl > li { display: inline;
+     margin-right: 50px;
+     border-style: solid;
+     border-radius: 25%;
+     padding: 5px;
+     background-color: #333;
+     border-color: #333;
+  }
+  
+  #langl > li a {color: white;
+    text-decoration: none;
+  }
+  
+  ul.ngang {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.ngang > li { float:none;
+  }
+  
+  #about {float: none;}
+  
+  ul.ngang > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+  }
+  
+  ul.ngang > li a:hover {
+    background-color: #111;
+  }
+  
+  .aboutus {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #ffe4f0;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+}
+
+
+.aboutus > div {
+    background-color: #ffe4f0;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.a1 {font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #552c3f;
+  width: 5%;
+}
+
+.a1 > p {  transform: rotate(-90deg);
+  text-wrap: nowrap;
+  font-size: 50px;
+  margin-top: 3cm;
+}
+
+.a2 {
+  width: 60%;
+  box-shadow: 0px 0px 10px 5px #703a53;
+}
+
+.a3 { width: 90%;
+}
+
+img {
+  width: 100%;
+  margin-bottom: -0.8cm;
+}
+.aboutus > .a3 > p {
+  font-size: 25px;
+  line-height: 0.8cm;
+  text-align: left;
+  margin-top: -0.5cm;
+  color: #462335;
+  margin-bottom: -0.3cm;
+}
+
+.aboutus > .a3 > h1 {
+  font-size: 170%;
+  margin-top: 0px;
+  color: #864564;
+  line-height: 55px;
+}
+
+.aboutus > .a3 > h2 {font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 130%;
+  margin-top: -1cm;
+  color: #c895ad;
+}
+}
