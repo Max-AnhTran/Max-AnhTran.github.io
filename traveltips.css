@@ -92,6 +92,22 @@ ol {
   margin-bottom: -1cm;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2cm;
+  margin-bottom: -1.7cm;
+}
+.button > a {text-decoration: none;
+  color: #333;
+  background-color: #ffd188;
+  padding: 5px;
+  border-style: dotted;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 /* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
   
 @media only screen and (max-width: 430px) {
@@ -194,4 +210,21 @@ ol {
   margin-left: -2cm;
   margin-right: -1cm;
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2cm;
+  margin-bottom: -1.7cm;
+}
+.button > a {text-decoration: none;
+  color: #333;
+  background-color: #ffd188;
+  padding: 5px;
+  border-style: dotted;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 }
