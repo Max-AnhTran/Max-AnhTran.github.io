@@ -121,3 +121,142 @@ td {
 main {
   color: #26125c;
 }
+
+/* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+  
+@media only screen and (max-width: 430px) {
+
+  body {
+    font-family: Garamond, serif;
+    margin: 0;
+    font-size: 27px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #333;
+  }
+  footer > h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  ul { list-style-type: none;
+   }
+  
+  #title {margin-top: -50px;
+    background-color: #e0d6ff;
+    padding: 5px;
+    margin-left: -1cm;
+    margin-bottom: -30px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  #lang { display: flex;
+    justify-content: center;
+    background-color: #e0d6ff;
+      }
+  
+  #langl > li { display: inline;
+     margin-right: 50px;
+     border-style: solid;
+     border-radius: 25%;
+     padding: 5px;
+     background-color: #333;
+     border-color: #333;
+  }
+  
+  #langl > li a {color: white;
+    text-decoration: none;
+  }
+  
+  ul.ngang {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.ngang > li { float:none;
+  }
+  
+  #about {float: none;}
+  
+  ul.ngang > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 7px;
+    text-decoration: none;
+  }
+  
+  ul.ngang > li a:hover {
+    background-color: #111;
+  }
+  
+  
+  .c2 { float: right;
+
+  }
+  
+  main {
+    background-color: #ece6ff;
+  }
+  
+  main > div {
+    padding-top: 1.1cm;
+  }
+  
+  .c { display: flex;
+    flex-flow: row wrap;
+    min-height: 0cm;
+  }
+  
+  #ct {
+    width: 40% ;
+    margin-right: 0cm;
+    margin-top: -0.5cm;
+    float: right;
+  }
+  
+  p.content {text-wrap: wrap;
+    font-size: 80%;
+    margin-left: 0cm;
+    margin-top: -3cm;
+    padding: 0.5cm;
+  }
+  
+  span.title {font-size: 175%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: 900;
+  }
+  
+  #table {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    margin-bottom: 1cm;
+    font-size: 90%;
+  }
+  
+  td {
+    border: 1px solid ece6ff;
+    border-collapse: collapse;
+    background-color: #d0c2f9;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  main {
+    color: #26125c;
+  }
+
+}
