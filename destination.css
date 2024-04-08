@@ -69,15 +69,6 @@ ul.ngang > li a:hover {
   background-color: #111;
 }
 
-.space1 {background-color: rgb(119, 61, 19);
-  padding: 7px;}
-
-.space2 {background-color: rgb(119, 61, 19);
-  padding: 7px;
-  margin-top: -14px;
-}
-
-
 .countrylist {
     display: flex;
     flex-flow: row wrap;
