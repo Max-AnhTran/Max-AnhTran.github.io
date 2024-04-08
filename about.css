@@ -121,13 +121,13 @@ img {
 .aboutus > .a3 > h1 {
   font-size: 175%;
   margin-top: -0.5cm;
-  color: #864564;
+  color: #620e37;
 }
 
 .aboutus > .a3 > h2 {font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 200%;
   margin-top: -1cm;
-  color: #c895ad;
+  color: #c21f6b;
 }
 
 /* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
@@ -262,13 +262,13 @@ img {
 .aboutus > .a3 > h1 {
   font-size: 170%;
   margin-top: 0px;
-  color: #864564;
+  color: #620e37;
   line-height: 55px;
 }
 
 .aboutus > .a3 > h2 {font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 130%;
   margin-top: -1cm;
-  color: #c895ad;
+  color: #c21f6b;
 }
 }
