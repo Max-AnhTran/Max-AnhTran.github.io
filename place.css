@@ -95,6 +95,12 @@ body {
     margin-left: 1cm;
     margin-right: 1cm;
   }
+
+  .main > ul {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1cm;
+  }
   
   .aside > h1 {font-size: 50px;color: rgb(152, 78, 78);}
   
@@ -210,6 +216,12 @@ body {
     font-size: 25px;
     margin-left: 0.2cm;
     margin-right: 0.2cm;
+  }
+
+  .main > ul {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0cm;
   }
   
   .aside > h1 {font-size: 30px;color: rgb(152, 78, 78);}
