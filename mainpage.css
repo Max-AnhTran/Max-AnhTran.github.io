@@ -80,7 +80,7 @@ img {width:100%; padding: 0%;}
 
 /* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
   
-  @media only screen and (max-width: 430px) {
+@media only screen and (max-width: 430px) {
     body {
       font-family: Garamond, serif;
       margin: 0;
