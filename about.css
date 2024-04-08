@@ -93,7 +93,7 @@ ul.ngang > li a:hover {
   width: 5%;
 }
 
-.a1 > p {  transform: rotate(-90deg);
+.a1 > h1 {  transform: rotate(-90deg);
   text-wrap: nowrap;
   font-size: 100px;
 }
@@ -232,7 +232,7 @@ img {
   width: 5%;
 }
 
-.a1 > p {  transform: rotate(-90deg);
+.a1 > h1 {  transform: rotate(-90deg);
   text-wrap: nowrap;
   font-size: 50px;
   margin-top: 3cm;
