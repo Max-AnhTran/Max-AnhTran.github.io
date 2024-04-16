@@ -7,6 +7,7 @@ body {
 footer {
   padding: 25px;
   background-color: #333;
+  margin-top: -15px;
 }
 footer > h1 {
   font-size: 20px;
@@ -69,14 +70,10 @@ ul.ngang > li a:hover {
   background-color: #111;
 }
 
-.space1 {background-color: rgb(119, 61, 19);
-  padding: 7px;}
 
-.space2 {background-color: rgb(119, 61, 19);
-  padding: 7px;
-  margin-top: -14px;}
-
-img {width:100%; padding: 0%;}
+img {width:100%; padding: 0%;
+border-top: 10px; border-top-style: solid ;border-top-color: rgb(119, 61, 19);
+border-bottom: 10px; border-bottom-style: solid ;border-bottom-color: rgb(119, 61, 19);}
 
 /* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
   
@@ -90,6 +87,7 @@ img {width:100%; padding: 0%;}
     footer {
       padding: 20px;
       background-color: #333;
+      margin-top: -15px;
     }
     footer > h1 {
       font-size: 20px;
@@ -154,14 +152,8 @@ img {width:100%; padding: 0%;}
     ul.ngang > li a:hover {
       background-color: #111;
     }
-    
-    .space1 {background-color: rgb(119, 61, 19);
-      padding: 6px;}
-    
-    .space2 {background-color: rgb(119, 61, 19);
-      padding: 6px;
-      margin-top: -8px;}
 
-      img {width:100%; height: 6cm; padding: 0%;
-          }
+    img {width:100%; height: 6cm; padding: 0%;
+      border-top: 10px; border-top-style: solid ;border-top-color: rgb(119, 61, 19);
+      border-bottom: 10px; border-bottom-style: solid ;border-bottom-color: rgb(119, 61, 19);}
   }
